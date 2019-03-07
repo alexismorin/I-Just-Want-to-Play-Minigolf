@@ -15,7 +15,7 @@ public class Hole : MonoBehaviour {
             Transform clubLocation = GameObject.Find ("Player").transform.GetChild (0);
 
             other.gameObject.transform.position = clubLocation.position;
-            other.gameObject.transform.rotation = clubLocation.rotation;
+   //         other.gameObject.transform.rotation = clubLocation.rotation;
         }
     }
 }

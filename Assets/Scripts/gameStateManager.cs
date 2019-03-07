@@ -54,6 +54,9 @@ public class gameStateManager : MonoBehaviour {
         tiles = GameObject.FindGameObjectsWithTag ("tile");
         startTile = tiles[Random.Range (0, tiles.Length)];
         startTile.GetComponent<tile> ().BuildStep ();
+
+
+        GameObject.Find ("Player").transform.position = startTile.transform.position;
     }
 
     public void MapCreatedCallback (GameObject exitTile) {
