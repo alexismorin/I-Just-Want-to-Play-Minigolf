@@ -25,8 +25,10 @@ public class tile : MonoBehaviour {
     public GameObject ball;
     public GameObject hole;
     public GameObject club;
+    [Space (5)]
+    public GameObject decoration;
 
-    void Decorate () { // hardcoded for your pleasure
+    public void Decorate () { // hardcoded for your pleasure
 
         // horizontal
         if (entrance == "left" & exit == "right" || entrance == "right" & exit == "left") {
@@ -80,13 +82,17 @@ public class tile : MonoBehaviour {
             tileCapRight.SetActive (true);
         }
 
-        if (entrance == "none") {
+        if (entrance == "none" && exit != "none") {
             ball.SetActive (true);
             club.SetActive (true);
         }
 
-        if (exit == "none") {
+        if (exit == "none" && entrance != "none") {
             hole.SetActive (true);
+        }
+
+        if (entrance == "none" && exit == "none") {
+            decoration.SetActive (true);
         }
 
     }
@@ -176,7 +182,7 @@ public class tile : MonoBehaviour {
             done = true;
         }
 
-        Decorate ();
+        //       Decorate ();
 
     }
 

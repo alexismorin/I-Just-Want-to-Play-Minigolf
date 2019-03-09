@@ -55,11 +55,14 @@ public class gameStateManager : MonoBehaviour {
         startTile = tiles[Random.Range (0, tiles.Length)];
         startTile.GetComponent<tile> ().BuildStep ();
 
-
         GameObject.Find ("Player").transform.position = startTile.transform.position;
     }
 
     public void MapCreatedCallback (GameObject exitTile) {
         print ("map created");
+        tiles = GameObject.FindGameObjectsWithTag ("tile");
+        for (int i = 0; i < tiles.Length; i++) {
+            tiles[i].SendMessage ("Decorate");
+        }
     }
 }
