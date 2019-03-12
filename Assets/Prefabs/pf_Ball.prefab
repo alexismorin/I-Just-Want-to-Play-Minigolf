@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9171314643712445527}
   - component: {fileID: 3431189217504229111}
   - component: {fileID: 1460457912269489316}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pf_Ball
   m_TagString: ball
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1460457912269489316
 MonoBehaviour:
   m_ObjectHideFlags: 0

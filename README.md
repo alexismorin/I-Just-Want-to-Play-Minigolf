@@ -1,8 +1,4 @@
-# I Just Want to Play Minigolf
-### An Open-Source Procedural VR Minigolf Project
-
-![headerImage](/images/title.png)
-
+![headerImage](/images/titlecard.png)
 
 Disclaimer: This was made on the couch in five hours after I realized that there were no (free!) good VR minigolf games available. This is probably super buggy in parts.
 
@@ -20,7 +16,6 @@ What it does:
   - Line 2: The seed for the course being generated - type a random number in and if you like it you can keep it and reuse it. Disregard if you have line one set to generate new courses every time.
   - Line 3: The map size for the course - if you want to share a course with someone ideally you'd have the same size but otherwise numbers from 4 to 20 will work nicely if you want to blow through small courses.
  
-
 ## Changelog
 
  - 7/03/2019: initial push

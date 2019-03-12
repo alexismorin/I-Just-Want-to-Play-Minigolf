@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7376992529878685231}
   - component: {fileID: 1388564272370396027}
   - component: {fileID: 558310155680161510}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pf_Cliff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,6 +66,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

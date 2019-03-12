@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5769332695550004225}
   - component: {fileID: 5769332695550004224}
   - component: {fileID: 5769332695550004227}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,6 +68,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -134,7 +135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1702024586523890700}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pf_Windmill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
