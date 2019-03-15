@@ -50,18 +50,22 @@ public class tile : MonoBehaviour
         if (entrance == "up" & exit == "right" || entrance == "right" & exit == "up")
         {
             tileCurveUpRight.SetActive(true);
+            gameObject.tag = "curve";
         }
         if (entrance == "right" & exit == "down" || entrance == "down" & exit == "right")
         {
             tileCurveRightDown.SetActive(true);
+            gameObject.tag = "curve";
         }
         if (entrance == "left" & exit == "down" || entrance == "down" & exit == "left")
         {
             tileCurveDownLeft.SetActive(true);
+            gameObject.tag = "curve";
         }
         if (entrance == "up" & exit == "left" || entrance == "left" & exit == "up")
         {
             tileCurveLeftUp.SetActive(true);
+            gameObject.tag = "curve";
         }
 
         // cap start

@@ -76,5 +76,8 @@ public class gameStateManager : MonoBehaviour
         {
             tiles[i].SendMessage("Decorate");
         }
+
+        int par = GameObject.FindGameObjectsWithTag("curve").Length;
+        GameObject.Find("parText").GetComponent<TextMesh>().text = "Par " + par.ToString();
     }
 }
